@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //实列物品
     public static final Item ICE_ETHER = registerItems("ice_ether",new Item(new Item.Settings()));
+    public static final Item  Heart= registerItems("heart",new Item(new Item.Settings()));
     //注册方法
     public static Item registerItems(String id, Item item){
 //        return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(),Identifier.of(TutorialMod.MOD_ID,id)), item);
